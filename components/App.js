@@ -29,8 +29,8 @@ var App = React.createClass({
   render: function() {
     return (
 		<div className={'app'}>
-			<ContactForm contact={'contactForm'}></ContactForm>
-			<Contacts items={'concats'}></Contacts>
+			<ContactForm contact={contactForm}></ContactForm>
+			<Contacts items={concats}></Contacts>
 		</div>
 //      React.createElement('div', {className: 'app'},
 //        React.createElement(ContactForm, {contact: contactForm}),
